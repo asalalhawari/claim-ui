@@ -24,7 +24,7 @@ const ClaimRejectionTable = () => {
       activityType: "CPT",
       rejectionReason: "The ICD code is not appropriate to be used as the principal diagnosis.",
       relationType: "CPT-ICD",
-      level: "Activity",
+      level: "Edit",
       message:
         "This is message.",
     },
