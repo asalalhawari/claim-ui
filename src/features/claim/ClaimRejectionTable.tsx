@@ -14,7 +14,7 @@ const ClaimRejectionTable = () => {
       rejectionReason: "The ICD code is not appropriate to be used as the principal diagnosis.",
       relationType: "ICD-principal",
       level: "Edit",
-      message: "The ICD code is not valid based on the claim policy.",
+      message: "This is message.",
     },
     {
       claimId: "CLM-002",
@@ -26,7 +26,7 @@ const ClaimRejectionTable = () => {
       relationType: "CPT-ICD",
       level: "Activity",
       message:
-        "The selected CPT code is not clinically supported by the provided ICD diagnosis.",
+        "This is message.",
     },
   ];
 
